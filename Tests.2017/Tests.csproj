@@ -1130,6 +1130,7 @@
     <Compile Include="..\Tests\VB\Diagnostics\VBDiagnosticTestBase.cs">
       <Link>VB\Diagnostics\VBDiagnosticTestBase.cs</Link>
     </Compile>
+    <Compile Include="CSharp\CodeRefactorings\UseObjectInitializerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
